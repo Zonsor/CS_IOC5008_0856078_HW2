@@ -74,12 +74,13 @@ elif model_g == "conv":
 else:
     generator = model_resGD.Generator()
 
-if model_g == "linear":
+if model_d == "linear":
     discriminator = model_linearGD.Discriminator()
-elif model_g == "conv":
+elif model_d == "conv":
     discriminator = model_conGD.Discriminator(input_channels=channels, dim=img_size, norm='layer_norm')
 else:
     discriminator = model_resGD.Discriminator()
+
 
 if cuda:
     generator.cuda()
