@@ -3,4 +3,5 @@
 # Acknowledgements
 https://github.com/eriklindernoren/PyTorch-GAN  
 https://github.com/jalola/improved-wgan-pytorch  
-https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Pytorch
+https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Pytorch  
+https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
