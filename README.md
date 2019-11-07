@@ -1,4 +1,13 @@
 # CS_IOC5008_0856078_HW2
+# Note
+***dataroot:*** I put the CelebA dataset in "data/img_align_celeba" folder  
+***HW2_wgan_gp.py:*** Main function of WGAN with gradient penalty  
+***HW2_wgan_gp.py:*** Main function of DCGAN  
+***model_conGD.py:*** CNN moedel of discriminator and generator  
+***model_resGD.py:*** ResNet moedel of discriminator and generator  
+***model_linearGD.py:*** FCN moedel of discriminator and generator  
+***model_dcgan.py:*** DCGAN moedel of discriminator and generator  
+***data_preprocessing.py:*** Output image in 3 x 3 grid  
 
 # Brief introduction:
 　The task of this homework is generating new data from CelebA dataset. There are 202599 face images in this dataset. I trained a Wasserstein Generative Adversarial Networks (WGAN) with gradient penalty (GP) to complete this competition. Moreover, I also made use of cropping image, tuning hyperparameters, and changing model architecture to improve performance.
